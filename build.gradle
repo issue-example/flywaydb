@@ -1,0 +1,7 @@
+apply from: 'wrapper.gradle'
+
+subprojects{
+    repositories {
+        mavenCentral()
+    }
+}
